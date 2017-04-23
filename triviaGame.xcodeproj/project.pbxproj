@@ -22,6 +22,7 @@
 		0E5E9C2C1B1618A600B6E922 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E5E9C0B1B1618A500B6E922 /* UIKit.framework */; };
 		0E5E9C341B1618A600B6E922 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E5E9C321B1618A600B6E922 /* InfoPlist.strings */; };
 		0E5E9C361B1618A600B6E922 /* triviaGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5E9C351B1618A600B6E922 /* triviaGameTests.m */; };
+		0EC9A6001B1C9B5E0041AE17 /* XYZTwoPlayerGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC9A5FF1B1C9B5E0041AE17 /* XYZTwoPlayerGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		0E5E9C311B1618A600B6E922 /* triviaGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "triviaGameTests-Info.plist"; sourceTree = "<group>"; };
 		0E5E9C331B1618A600B6E922 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0E5E9C351B1618A600B6E922 /* triviaGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = triviaGameTests.m; sourceTree = "<group>"; };
+		0EC9A5FE1B1C9B5E0041AE17 /* XYZTwoPlayerGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZTwoPlayerGame.h; sourceTree = "<group>"; };
+		0EC9A5FF1B1C9B5E0041AE17 /* XYZTwoPlayerGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZTwoPlayerGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				0E5E9C161B1618A500B6E922 /* XYZAppDelegate.h */,
 				0E5E9C171B1618A500B6E922 /* XYZAppDelegate.m */,
 				0E5E9C191B1618A500B6E922 /* Main_iPhone.storyboard */,
+				0EC9A5FE1B1C9B5E0041AE17 /* XYZTwoPlayerGame.h */,
+				0EC9A5FF1B1C9B5E0041AE17 /* XYZTwoPlayerGame.m */,
 				0E5E9C1C1B1618A500B6E922 /* Main_iPad.storyboard */,
 				0E5E9C1F1B1618A500B6E922 /* XYZViewController.h */,
 				0E5E9C201B1618A500B6E922 /* XYZViewController.m */,
@@ -254,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EC9A6001B1C9B5E0041AE17 /* XYZTwoPlayerGame.m in Sources */,
 				0E5E9C211B1618A500B6E922 /* XYZViewController.m in Sources */,
 				0E5E9C181B1618A500B6E922 /* XYZAppDelegate.m in Sources */,
 				0E5E9C141B1618A500B6E922 /* main.m in Sources */,
@@ -471,6 +477,7 @@
 				0E5E9C3B1B1618A600B6E922 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E5E9C3C1B1618A600B6E922 /* Build configuration list for PBXNativeTarget "triviaGameTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +486,7 @@
 				0E5E9C3E1B1618A600B6E922 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
